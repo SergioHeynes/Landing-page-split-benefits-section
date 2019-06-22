@@ -1,0 +1,21 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.build-the-community {
+  text-align: center; }
+  .build-the-community__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 4.5rem; }
+  .build-the-community__paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    color: #808D99; }
+  .build-the-community__image {
+    width: 100%;
+    height: auto; }

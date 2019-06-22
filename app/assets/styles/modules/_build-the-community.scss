@@ -1,0 +1,19 @@
+.build-the-community {
+    text-align: center;
+
+    &__title {
+        font-family: $font-poppins;
+        font-size: 4.5rem; 
+    }
+
+    &__paragraph {
+        font-family: $font-openSans;
+        font-size: 3rem;
+        color: $color-grey;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+}

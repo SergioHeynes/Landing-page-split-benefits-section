@@ -1,0 +1,21 @@
+{
+  "name": "huddle-landing-page-462616-master",
+  "version": "1.0.0",
+  "description": "![Header/intro section for the Huddle landing page with split benefits section](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Heynes",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
