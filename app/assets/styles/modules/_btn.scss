@@ -1,10 +1,64 @@
 .btn {
 
+    &--white {
+        &:link,
+        &:visited {
+            display: inline-block;
+            background-color: $color-white;
+            padding: .5rem 1.5rem;
+            color: $color-pink;
+            text-decoration: none;
+            font-size: .8rem;
+            font-family: $font-poppins;
+            border-radius: 6px;
+            border: 1px solid $color-pink;
+
+            @include tablet {
+               
+            }
+
+            @include desktop {
+                font-size: 1.8rem;
+            }
+        }
+
+        &:hover {
+            padding: 1.3rem 3.2rem;
+            font-size: 1.7rem;
+        }
+
+        &:active {
+
+        }
+    }
+
     &--pink {
+        display: none;
+
+        @include tablet {
+            display: block;
+            width: 40%;
+            margin: 0 auto;
+        }
 
         &:link,
         &:visited {
+            background-color: $color-pink;
+            padding: 1.4rem 5rem;
+            color: $color-white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: $font-poppins;
+            border-radius: 6px;
 
+            @include tablet {
+                padding: 2rem 7rem;
+            }
+
+            @include desktop {
+                padding: 2.9rem 10rem;
+                font-size: 2.2rem;
+            }
         }
 
         &:hover {

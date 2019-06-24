@@ -1,0 +1,44 @@
+.header {
+    padding-top: 4rem;
+    padding-bottom: 12rem;
+    width: 100%;
+
+    @include clearfix;
+
+    @include tablet {
+        padding-top: 6rem;
+        padding-bottom: 16rem;
+    }
+
+    @include desktop {
+        padding-top: 8rem;
+        padding-bottom: 25rem;
+    }
+
+    &__col-1-of-2 {
+        float: left;
+        width: 50%;
+    }
+
+    &__col-2-of-2 {
+        float: left;
+        width: 50%;
+        text-align: right;
+    }
+
+    &__logo {
+        width: 70%;
+        
+        @include tablet {
+            width: auto;
+        }
+    }
+
+    &__btn {
+
+
+        @include tablet {
+            margin-top: .8rem;
+        }
+    }
+}
